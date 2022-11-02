@@ -1,52 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Homepage</title>
-    </head>
-    <link rel="stylesheet" href="base.css" />
-    <body>
-        <div class="bg"></div>
-        <h1 id="home">
-            Lewis Homepage
-        </h1>
-        <div class="navbar">
-            <a href="#home">Home</a>
-            <a href="#info">Info</a>
-            <a href="#exp">Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact me</a>
-        </div>
-        <h2 id="info">
-            Personal Info
-        </h2>
-        <div>
-            <img src="images/photo.jpg" alt="personal photo" width="100" height="140">
-            Hi! I'm Lewis Ning. I'm a University of Alberta Computing Science Student.<br>
-            I'm approachable, kind and would love to help others so that I became a science mentor in the last year.<br>
+<head>
 
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<!--    <link rel="manifest" href="/site.webmanifest">-->
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="force-rendering" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Lewis Ning">
+    <title>Lewis Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/iconfont.css">
+    <link href='https://fonts.google.com/specimen/Source+Serif+Pro' rel='stylesheet' type='text/css'>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fontawesome-pro@master/css/all.min.css"
+        media="all">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?14e9f35ff8bc67fd4bcb5f07a6e6655a";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)) window.location.href = "https://imsyy.top/upgrade-your-browser/index.html?referrer=" + encodeURIComponent(window.location.href);</script>
+    
+   
+</head>
+
+<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
+    <!--<span class="mobile btn-mobile-menu">
+        <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
+        <i class="social iconfont icon-ngleup btn-mobile-close__icon hidden"></i>
+    </span>-->
+    <header id="panel" class="panel-cover">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content">
+                    <h1 class="panel-cover__title panel-title iUp">
+                        <p><em>Xuyang (Lewis) Ning</em></p>
+                    </h1>
+                    <p class="panel-cover__subtitle panel-subtitle iUp" style="font-family: 'Courier New'">print("Hello Lewis!")</p>
+                    <p class="panel-cover__subtitle panel-subtitle iUp" style="font-family: 'Courier New'">printf("Hello Lewis!");</p>
+                    <p class="panel-cover__subtitle panel-subtitle iUp" style="font-family: 'Courier New'">System.out.println("Hello Lewis!");</p>
+                    <hr class="panel-cover__divider iUp" />
+
+                    <div class="navigation-wrapper iUp">
+                        <div>
+                            <nav class="cover-navigation cover-navigation--primary">
+                                <ul class="navigation">
+                                    <li class="navigation__item">
+                                        <a href="" target="_blank" class="blog-button">
+                                            <div style="font-family: 'Source Code Pro'">Education</div>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <!--<a onclick="update()" class="blog-button">-->
+                                        <a href="" target="_blank" class="blog-button">
+                                            <div style="font-family: 'Source Code Pro'">Skills</div>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="" target="_blank" class="blog-button">
+                                            <div style="font-family: 'Source Code Pro'">Experiences</div>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="" target="_blank" class="blog-button">
+                                            <div style="font-family: 'Source Code Pro'">Projects</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+
+                        <div class="iUp">
+                            <nav class="cover-navigation navigation--social">
+                                <p class="panel-cover__subtitle panel-subtitle iUp" style="font-family: 'Courier New'">Contact me</p>
+                                <ul class="navigation">
+
+                                    <li class="navigation__item">
+                                        <a href="https://github.com/lewisning/" title="GitHub">
+                                            <i class="fab fa-github"></i>
+                                            <span class="label">GitHub</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="navigation__item">
+                                        <a href="https://www.linkedin.com/in/lewis-ning/" title="LinkedIn">
+                                            <i class="fab fa-linkedin"></i>
+                                            <span class="label">LinkedIn</span>
+                                        </a>
+                                    </li>
+
+
+                                    <li class="navigation__item">
+                                        <a href="mailto:xn@ualberta.ca" title="Gmail">
+                                            <i class="fab fa-google"></i>
+                                            <span class="label">Gmail</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay cover-slate"></div>
         </div>
-        <h2 id="exp">
-            Experiences
-        </h2>
-        <div>
-            <ul>
-                <li>Software Developer</li>
-                <li>K12 Python Educator</li>
-            </ul>
+        <div class="remark iUp">
+            <p class="power" style="font-size: 13px">Powered by &#9810
+<!--                <script>document.write(' - ' + (new Date()).getFullYear())</script>-->
+            </p>
         </div>
-        <h2 id="skills">
-            Skills
-        </h2>
-        <div>
-            python, java, TensorFlow, OpenCV, Android Studio<br>
-        </div>
-        <h2 id="contact">
-            Contact me
-        </h2>
-        <div>
-            <a href="https://www.linkedin.com/in/lewis-ning/">LinkedIn</a>
-            <a href="https://github.com/lewisning">GitHub</a>
-        </div>
-    </body>
+
+         
+         
+    </header>
+    <!--izitoast弹窗设置-->
+    <script>
+        iziToast.settings({
+            timeout: 4000,//调试
+            icon: 'Fontawesome',
+            closeOnEscape: 'true',
+            position: 'topRight',
+            transitionOut: 'fadeOutRight',
+            displayMode: '2',
+            layout: '2',
+            transitionIn: 'bounceInLeft',
+        });
+    </script>
+    <!--izitoast内容-->
+    <script>
+        function update() {
+            iziToast.info({
+                icon: 'fad fa-times-octagon',
+                backgroundColor: '#efefef',
+                title: 'Temporary Closed',
+                message: 'A little error occured'
+            });
+        }
+    </script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/fetch.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    
+   
+    
+</body>
+
+	
+
+
 </html>
