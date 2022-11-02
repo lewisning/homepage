@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b57cdef8-cbc0-4d11-937c-57940bdad51a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/body.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photo.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +42,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
@@ -180,7 +173,7 @@
       <updated>1645732655864</updated>
       <workItem from="1645732662533" duration="816000" />
       <workItem from="1667405257559" duration="5304000" />
-      <workItem from="1667411780037" duration="8765000" />
+      <workItem from="1667411780037" duration="9248000" />
     </task>
     <servers />
   </component>
