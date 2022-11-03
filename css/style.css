@@ -7611,12 +7611,12 @@ html {
 body {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 1em;
-  color: #666;
+  color: #000000;
   -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background: rgba(37, 104, 163, 0.2);
+  background: rgb(0, 0, 0);
 }
 
 ::-moz-selection {
@@ -7673,7 +7673,7 @@ h5 {
 }
 
 p {
-  margin-bottom: 1.3em;
+  margin-bottom: 1em;
   line-height: 1.7em;
 }
 
@@ -7806,7 +7806,7 @@ tbody td {
 .time a,
 .author a,
 .tags a {
-  color: #666;
+  color: #000000;
 }
 
 .date a:hover,
@@ -8056,7 +8056,7 @@ hr {
 .panel-inverted {
   font-weight: 100;
   text-align: center;
-  color: #fff;
+  color: #000000;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
 }
 
@@ -10083,7 +10083,6 @@ i {
   }
 }
 
-/*弹窗美化*/
 /*.iziToast:after {
   box-shadow: none !important;
 }
