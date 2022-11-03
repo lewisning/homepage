@@ -8079,7 +8079,6 @@ hr {
   border-radius: 20px;
   font-size: 0.9em;
   font-weight: bold;
-  letter-spacing: 1px;
   text-shadow: none;
   color: #4e97d8;
   -webkit-font-smoothing: antialiased;
@@ -8176,6 +8175,7 @@ nav {
   color: #fff;
   opacity: 0.8;
   transition: 0.3s;
+  width: 80px;
 }
 
 .navigation__item a:hover {
@@ -8222,7 +8222,7 @@ i {
   font-family: 'entypo';
   font-weight: normal;
   font-style: normal;
-  font-size: 18px;
+  font-size: 28px;
 }
 
 .social {
@@ -8415,6 +8415,7 @@ i {
   .btn,
   .navigation__item a {
     display: block;
+    size: 20px;
     margin-bottom: 0.4em;
   }
 }

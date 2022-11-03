@@ -31,7 +31,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="./images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+<!--    <link rel="manifest" href="/site.webmanifest">-->
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
@@ -43,6 +43,7 @@
         <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
         <i class="social iconfont icon-ngleup btn-mobile-close__icon hidden"></i>
     </span>-->
+
     <header id="panel" class="panel-cover">
         <div class="panel-main">
             <div class="panel-main__inner panel-inverted">
@@ -87,7 +88,7 @@
 
                         <div class="iUp">
                             <nav class="cover-navigation navigation--social">
-                                <p class="panel-cover__subtitle panel-subtitle iUp" style="font-family: 'Courier New'">Contact me</p>
+                                <p class="panel-cover__subtitle panel-subtitle iUp" style="font-family: 'Courier New'"><em>Contact me</em></p>
                                 <ul class="navigation">
 
                                     <li class="navigation__item">
@@ -117,18 +118,24 @@
                     </div>
                 </div>
             </div>
+
+
+
+
+            
+
+
+
+
             <div class="panel-cover--overlay cover-slate"></div>
         </div>
         <div class="remark iUp">
-            <p class="power" style="font-size: 13px">Powered by &#9810
-<!--                <script>document.write(' - ' + (new Date()).getFullYear())</script>-->
-            </p>
+            <p class="power" style="font-size: 13px">Powered by &#9810</p>
         </div>
 
          
          
     </header>
-    <!--izitoast弹窗设置-->
     <script>
         iziToast.settings({
             timeout: 4000,//调试
@@ -141,7 +148,6 @@
             transitionIn: 'bounceInLeft',
         });
     </script>
-    <!--izitoast内容-->
     <script>
         function update() {
             iziToast.info({
