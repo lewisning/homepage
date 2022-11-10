@@ -138,28 +138,37 @@
          
          
     </header>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JCS0JWZ9RJ"></script>
     <script>
-        iziToast.settings({
-            timeout: 4000,
-            icon: 'Fontawesome',
-            closeOnEscape: 'true',
-            position: 'topRight',
-            transitionOut: 'fadeOutRight',
-            displayMode: '2',
-            layout: '2',
-            transitionIn: 'bounceInLeft',
-        });
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JCS0JWZ9RJ');
     </script>
-    <script>
-        function update() {
-            iziToast.info({
-                icon: 'fad fa-times-octagon',
-                backgroundColor: '#efefef',
-                title: 'Temporary Closed',
-                message: 'A little error occured'
-            });
-        }
-    </script>
+<!--    <script>-->
+<!--        iziToast.settings({-->
+<!--            timeout: 4000,-->
+<!--            icon: 'Fontawesome',-->
+<!--            closeOnEscape: 'true',-->
+<!--            position: 'topRight',-->
+<!--            transitionOut: 'fadeOutRight',-->
+<!--            displayMode: '2',-->
+<!--            layout: '2',-->
+<!--            transitionIn: 'bounceInLeft',-->
+<!--        });-->
+<!--    </script>-->
+<!--    <script>-->
+<!--        function update() {-->
+<!--            iziToast.info({-->
+<!--                icon: 'fad fa-times-octagon',-->
+<!--                backgroundColor: '#efefef',-->
+<!--                title: 'Temporary Closed',-->
+<!--                message: 'A little error occured'-->
+<!--            });-->
+<!--        }-->
+<!--    </script>-->
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/fetch.min.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
