@@ -7849,7 +7849,7 @@ tbody td {
   position: relative;
   display: inline-block;
   padding: 8px 18px 9px 18px;
-  background: #4e97d8;
+  background: #32812b;
   border-radius: 3px;
   text-align: center;
   color: #fff;
@@ -10097,4 +10097,18 @@ i {
 
 svg {
   margin-right: 15px;
+}
+
+dt {
+  font-size: 30px;
+  color: white;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+dd {
+  font-size: 20px;
+  color: #CFCFCE;
+  margin-bottom: 5px;
+  line-height: 130%;
 }
